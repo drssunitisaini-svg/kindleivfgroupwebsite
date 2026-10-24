@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N5NB2TKK');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="3KUYryqPVbASg9E48UBpIulVFHyIJ8pEvYjHADJMVX8" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYYGNP3EHX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XYYGNP3EHX');
+    </script>
+    <link rel="icon" type="image/jpeg" href="/faviconkindle.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle Womb Responsive Header</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5NB2TKK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<header class="main-header">
+    <div class="header-container">
+        
+        <!-- Logo Section using image reference -->
+        <a href="/" class="logo-area">
+            <img src="/kindle-logo.png" alt="Kindle Womb IVF & Fertility Centre Logo" class="logo-img">
+        </a>
+
+        <!-- Hamburger Mobile Menu Toggle Button -->
+        <button class="mobile-menu-toggle" aria-label="Toggle Navigation" onclick="toggleMobileMenu()">
+            <i class="fa-solid fa-bars menu-icon"></i>
+        </button>
+
+        <!-- Navigation Section -->
+        <nav class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="/" class="nav-item">Home</a></li>
+                <li><a href="/about" class="nav-item">About</a></li>
+                
+                <!-- Services Dropdown Matrix -->
+                <li class="dropdown">
+                    <a href="/services" class="nav-item">Services <i class="fa-solid fa-arrow-down-long arrow-icon"></i></a>
+                    <div class="dropdown-content grid-dropdown">
+                        <div class="dropdown-grid">
+                            <a href="/ivf">IVF <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/donor-ivf-services">Donor IVF Services <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/infertility-assessment">Infertility Assessment <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/iui">IUI <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/fertility-enhancing-surgeries">Fertility Enhancing Surgeries <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/advance-technology">Advance Technology <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/icsi">ICSI <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/sperm-retrieval">Sperm Retrieval <i class="fa-solid fa-circle-arrow-right"></i></a>
+                            <a href="/contact">Book a Consultation <i class="fa-solid fa-circle-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="/ivf-center" class="nav-item">IVF Center</a></li>
+                <li><a href="/contact" class="nav-item">Contact</a></li>
+                <li><a href="/gallery" class="nav-item">Gallery</a></li>
+                
+                <!-- Patient Zone Dropdown Flex -->
+                <li class="dropdown">
+                    <a href="#" class="nav-item">Patient Zone <i class="fa-solid fa-arrow-down-long arrow-icon"></i></a>
+                    <div class="dropdown-content flex-dropdown">
+                        <div class="dropdown-flex-container">
+                             <a href="/what-is-surrogacy">What is surrogacy. <i class="fa-solid fa-circle-arrow-right"></i></a>
+                             <a href="/infertility-assessment">What is Infertility? <i class="fa-solid fa-circle-arrow-right"></i></a>
+                             <a href="/frequently-asked-questions">Frequently Asked Questions <i class="fa-solid fa-circle-arrow-right"></i></a>
+                             <a href="/blogs">Blogs <i class="fa-solid fa-circle-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- CTA Button -->
+        <div class="cta-area">
+            <a href="tel:+919119107725" class="cta-button">Call Now <i class="fa-solid fa-phone phone-icon"></i></a>
+        </div>
+
+    </div>
+</header>
+
+<script>
+    function toggleMobileMenu() {
+        const navMenu = document.getElementById('navMenu');
+        const icon = document.querySelector('.menu-icon');
+        navMenu.classList.toggle('active');
+        
+        if(navMenu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-xmark');
+        } else {
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+        }
+    }
+</script>
+
+</body>
+</html>

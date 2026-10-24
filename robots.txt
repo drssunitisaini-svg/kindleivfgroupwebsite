@@ -1,0 +1,11 @@
+# ==============================================================================
+# Kindle Womb IVF & Fertility Centre - Robots.txt
+# Canonical Production Domain: https://kindlewombivfgroup.com/
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Canonical XML Sitemap
+Sitemap: https://kindlewombivfgroup.com/sitemap.xml
+# LLM Manifest for AI Discovery: https://kindlewombivfgroup.com/llms.txt
